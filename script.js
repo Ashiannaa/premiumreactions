@@ -26,8 +26,8 @@ $('.btn_nav').click(function() {
   
   window.onscroll = function() {myFunction()};
 
-var navigation a= document.getElementById("navigation a");
-var navigation a = navigation.offsetTop;
+var navigation = document.getElementById("navigation a");
+var navigation  = navigation.offsetTop;
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
@@ -36,3 +36,5 @@ function myFunction() {
     navigation.classList.remove("navigation a");
   }
 }
+
+

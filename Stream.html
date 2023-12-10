@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>G3 Promotional Plan</title> 
+        <link rel="stylesheet" href="Stream.css">
+        <link rel="icon" href="logo.png" type="image/gif">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    </head>
+
+    <body>
+        <div class="background">
+        <header>
+            <nav class="navigation" id="sticky">
+            <h2 class="logo">Group 3</h2>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Q1.html">Quarter 1</a></li>
+                <li><a href="Promotional.html">Promotional Plan</a></li>
+                <li><a href="Stream.html">Stream Outline</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="text-box">
+            <h1><span class="auto-input"></span></h1>
+                
+        </div>
+        
+        <div class="add">
+            <h1>Materials/Equipments</h1><br>
+                <ul>
+                    <li>Microphone</li>
+                    <li>Earphones/headsets</li>
+                    <li>Good Internet Connection</li>
+                    <li>Camera</li>
+                </ul>
+            </div>
+            <hr>
+            <h1 class="out">Stream Outline</h1>
+            <p class="des">Stream Outline is to show what will be the flow and <br> what to expect in our live streaming. This streaming<br>
+            Outline might change overtime. However, this will be<br> the standard flow </p>
+            <div class="container">
+        
+                <!-- Div with section and active -->
+                <div class="section one active"></div>
+                  
+                <!-- All another div with section -->
+                <div class="section two"></div>
+                <div class="section three"></div>
+                <div class="section four"></div>
+              </div>
+              <p class="expanding">Live Streaming Outline</p>
+              <hr class="line">
+        <h1 class="kiya">Additions</h1><br>
+            <ul class="addi">
+                <li>Our Live Streaming should not have Dead Air</li>
+                <li>We will be live on both Twitch and Youtube </li>
+                <li> The recap video/best moment in our live<br> streams will be posted on
+                Instagram, <br>Youtube, and Tiktok to drag attention to <br>attention to other people around the world </li>
+            </ul>
+        </div>
+    </div>
+        </div>
+        <section>
+            <footer class="footer">
+              <div class="concon">
+                <div class="row">
+                  <div class="footer-col">
+                      <h4>Content</h4>
+                      <ul>
+                        <li><a href="index.html">Promotional Plan</a></li>
+                        
+                      </ul>
+                  </div>
+                  <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                      <li><a href="#">Chloie Nicole</a></li>
+                      <li><a href="#">Lana Soto</a></li>
+                      <li><a href="#">Ace Kamid</a></li>
+                      <li><a href="#">Gio Renales</a></li>
+                      <li><a href="#">Jwaquin Nakamura</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Promotional Plan</h4>
+                    <ul>
+                      <li><a href="https://www.canva.com/design/DAF16Ru9n7Y/Bz3HjbjIVSGrzRpA5GkMrA/view?utm_content=DAF16Ru9n7Y&utm_campaign=designshare&utm_medium=link&utm_source=editor">The Presentation</a></li>
+                      <li><a href="https://www.canva.com/design/DAF1zffe4Yo/Ru5VIzYeU558w-JDjGKFXQ/view?utm_content=DAF1zffe4Yo&utm_campaign=designshare&utm_medium=link&utm_source=editor">Stream Outline</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Streaming Platforms</h4>
+                    <div class="social-links">
+                      <a href="https://www.twitch.tv/"><i class="fab fa-twitch"></i></a>
+                      <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+        
+                </div>
+              </div>
+            </section>
+        
+            
+            </footer>
+        
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+    var typed = new Typed(".auto-input", {
+    strings: ["STREAM OUTLINE", "WELCOME!"],
+    typeSpeed: 100,
+    backSpeed: 150,
+    loop: true
+})
+        
+    </script>
+    </body>
+    <script>
+        
+        // selecting all sections with class of section
+        const sections = document.querySelectorAll('.section');
+    
+        // Foreach section when clicked
+        sections.forEach((section) => {
+          section.addEventListener("click", () => {
+              
+            // remove active class from all another section and
+            // add it to the selected section
+            sections.forEach((section) => {
+              section.classList.remove("active");
+            });
+            section.classList.add("active");
+          });
+        });
+      </script>
+    </html>
